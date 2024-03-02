@@ -1,8 +1,6 @@
 import { useState } from "react";
-import Login from "../components/Login";
 import Sidebar from "../components/Sidebar";
 import Calculator from "../components/Calculator";
-import Result from "../components/Result";
 
 function Home() {
   const [count, setCount] = useState(0);
@@ -20,14 +18,7 @@ function Home() {
       <Sidebar></Sidebar>
       <div className="main" id="main">
         <div className="content">
-          <div className="divider">
-            <Login></Login>
-            <Result></Result>
-            <Calculator></Calculator>
-          </div>
-          <div className="divider">
-            <History></History>
-          </div>
+          <Calculator></Calculator>
         </div>
       </div>
     </>

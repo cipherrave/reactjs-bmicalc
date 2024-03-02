@@ -175,6 +175,7 @@ a {
   align-items: start;
   flex-wrap: wrap;
   gap: 1pc;
+  width: 100%;
   max-width: 500px;
 }
 

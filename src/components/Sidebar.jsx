@@ -27,7 +27,7 @@ function Sidebar() {
   }
 
   function logout() {
-    goToCalculator();
+    navigateHome();
     document.getElementById("cardLogin").style.display = "flex";
     document.getElementById("cardCalc").style.display = "none";
     document.getElementById("cardHistory").style.display = "none";
